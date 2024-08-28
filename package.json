@@ -1,7 +1,7 @@
 {
   "name": "pwanote",
   "version": "1.0.0",
-  "description": "TopLearn PWA Course Project",
+  "description": "PWA Project",
   "main": "index.js",
   "scripts": {
     "start": "http-server -c-1",
@@ -10,7 +10,7 @@
   },
   "keywords": [
     "PWA",
-    "TopLearn"
+    "PWA"
   ],
   "author": "ELAHE",
   "license": "MIT",

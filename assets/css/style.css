@@ -2,4 +2,36 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  direction: rtl;
+  font-family: tahoma;
+}
+
+.install-baner-wrapper {
+  width: 100%;
+  min-height: max-content;
+  background-color: #180161;
+  padding: 10px 20px;
+  flex-direction: column;
+  gap: 20px 0;
+  display: none;
+}
+
+.install-baner-text {
+  color: #fff;
+}
+
+.install-btn {
+  padding: 10px 20px;
+  border-radius: 8px;
+  background-color: #fb773c;
+  border: none;
+  color: #fff;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+.install-baner {
+  display: flex;
+  align-items: center;
+  gap: 0 10px;
 }
