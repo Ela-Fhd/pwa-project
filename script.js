@@ -1,5 +1,6 @@
 let deferredPrompt;
 let installBtn = document.querySelector(".install-btn");
+let closeBanerBtn = document.querySelector(".close-baner-btn");
 let installBanerWrapper = document.querySelector(".install-baner-wrapper");
 
 window.addEventListener("beforeinstallprompt", (e) => {
@@ -19,6 +20,10 @@ installBtn.addEventListener("click", () => {
       }
     });
   }
+});
+
+closeBanerBtn.addEventListener("click", () => {
+  installBanerWrapper.style.display = "none";
 });
 
 if ("serviceWorker" in navigator) {

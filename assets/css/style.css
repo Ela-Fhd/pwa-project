@@ -30,8 +30,23 @@
   cursor: pointer;
 }
 
-.install-baner {
+.middle-baner,
+.top-baner {
   display: flex;
   align-items: center;
   gap: 0 10px;
+}
+
+.top-baner {
+  justify-content: space-between;
+}
+
+.close-baner-btn {
+  color: #fff;
+  font-size: 25px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 50px;
+  background-color: transparent;
+  border: none;
 }
