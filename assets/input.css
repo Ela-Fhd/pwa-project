@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  direction: rtl;
+  font-family: tahoma;
+}
+
+.btn {
+  @apply text-base py-1 px-3 rounded text-[16px] border border-white;
+}
+
+.btn-blue {
+  @apply bg-blue-500 text-white;
+}
+
+.btn-blue:hover {
+  @apply bg-blue-400;
+}

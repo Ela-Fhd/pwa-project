@@ -13,13 +13,15 @@ window.addEventListener("beforeinstallprompt", (e) => {
 installBtn.addEventListener("click", () => {
   if (deferredPrompt) {
     deferredPrompt.prompt();
+    // ? choice === "accepted" OR "dismissed"
     deferredPrompt.userChoice.then((choice) => {
-      if (choice.outcome === "dismissed") {
-      } else {
+      if (choice.outcome === "accepted") {
         installBanerWrapper.style.display = "none";
       }
     });
   }
+
+  console.log(deferredPrompt);
 });
 
 closeBanerBtn.addEventListener("click", () => {

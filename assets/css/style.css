@@ -6,20 +6,6 @@
   font-family: tahoma;
 }
 
-.install-baner-wrapper {
-  width: 100%;
-  min-height: max-content;
-  background-color: #180161;
-  padding: 10px 20px;
-  flex-direction: column;
-  gap: 20px 0;
-  display: none;
-}
-
-.install-baner-text {
-  color: #fff;
-}
-
 .install-btn {
   padding: 10px 20px;
   border-radius: 8px;

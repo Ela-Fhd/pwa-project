@@ -1,7 +1,7 @@
 {
-  "name": "PWA",
-  "short_name": "PWANote",
-  "description": "An Offline Personal Note",
+  "name": "my app",
+  "short_name": "my app",
+  "description": "اپلیکیشن من",
   "background_color": "#fff",
   "theme_color": "#3f51b5",
   "start_url": "./index.html",
